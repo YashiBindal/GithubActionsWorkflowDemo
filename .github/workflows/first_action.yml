@@ -33,6 +33,6 @@ jobs:
           
       - name: Run tests
         run: |
-          cd scr
+          cd src
           python -m pytest addition.py
       
